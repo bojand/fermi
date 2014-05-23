@@ -1,0 +1,23 @@
+{
+  "name": "fermi",
+  "version": "1.0.0",
+  "description": "Estimate the number of piano tuners in a city given the population.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bojand/fermi.git"
+  },
+  "homepage": "https://github.com/bojand/fermi",
+  "keywords": [
+    "fermi",
+    "fermi problem",
+    "fermi estimation",
+    "estimation",
+    "piano"
+  ],
+  "author": {
+    "name": "Bojan D.",
+    "email": "dbojan@gmail.com"
+    },
+  "license": "MIT"
+}
