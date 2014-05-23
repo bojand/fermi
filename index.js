@@ -7,7 +7,7 @@ function merge(a, b) {
   return a;
 }
 
-module.exports = function fermi(population, assumoptions) {
+module.exports = function fermi(population, assumptions) {
   var options = {
     people_per_house: 2,
     houses_with_piano_percent: 5.0,
@@ -18,8 +18,8 @@ module.exports = function fermi(population, assumoptions) {
     tuner_work_weeks_oer_year: 50
   };
 
-  if (assumoptions) {
-    options = merge(options, assumoptions);
+  if (assumptions) {
+    options = merge(options, assumptions);
   }
 
   var tunings_per_year = population
