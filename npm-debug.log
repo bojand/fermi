@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/bojan/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz
+12 verbose folder .
+13 info prepublish fermi@1.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/bojan/.npm/1f1177db-tar.lock
+16 silly lockFile 6f72b79b-3490-0-29780436865985394-tmp-tgz tar:///var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz
+17 verbose lock tar:///var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz /Users/bojan/.npm/6f72b79b-3490-0-29780436865985394-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 6f72b79b-3490-0-29780436865985394-tmp-tgz tar:///var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz
+21 silly lockFile 6f72b79b-3490-0-29780436865985394-tmp-tgz tar:///var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz
+22 verbose tar unpack /var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz
+23 silly lockFile 90716bb2-rs-bojan-npm-fermi-1-0-0-package tar:///Users/bojan/.npm/fermi/1.0.0/package
+24 verbose lock tar:///Users/bojan/.npm/fermi/1.0.0/package /Users/bojan/.npm/90716bb2-rs-bojan-npm-fermi-1-0-0-package.lock
+25 silly lockFile 6f72b79b-3490-0-29780436865985394-tmp-tgz tar:///var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz
+26 verbose lock tar:///var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz /Users/bojan/.npm/6f72b79b-3490-0-29780436865985394-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm extractEntry license
+31 silly gunzTarPerm extractEntry readme.md
+32 silly lockFile 90716bb2-rs-bojan-npm-fermi-1-0-0-package tar:///Users/bojan/.npm/fermi/1.0.0/package
+33 silly lockFile 90716bb2-rs-bojan-npm-fermi-1-0-0-package tar:///Users/bojan/.npm/fermi/1.0.0/package
+34 silly lockFile 6f72b79b-3490-0-29780436865985394-tmp-tgz tar:///var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz
+35 silly lockFile 6f72b79b-3490-0-29780436865985394-tmp-tgz tar:///var/folders/w4/ldkv5_ns74dd0f3wqcfw73f40000gn/T/npm-28780-T_4Be_CW/1400807973490-0.29780436865985394/tmp.tgz
+36 silly lockFile 3a52ce78- .
+37 silly lockFile 3a52ce78- .
+38 silly publish { name: 'fermi',
+38 silly publish   version: '1.0.0',
+38 silly publish   description: 'Estimate the number of piano tuners in a city given the population.',
+38 silly publish   main: 'index.js',
+38 silly publish   repository: { type: 'git', url: 'git://github.com/bojand/fermi.git' },
+38 silly publish   homepage: 'https://github.com/bojand/fermi',
+38 silly publish   keywords:
+38 silly publish    [ 'fermi',
+38 silly publish      'fermi problem',
+38 silly publish      'fermi estimation',
+38 silly publish      'estimation',
+38 silly publish      'piano' ],
+38 silly publish   author: { name: 'Bojan D.', email: 'dbojan@gmail.com' },
+38 silly publish   license: 'MIT',
+38 silly publish   readme: '# fermi\n\nEstimate the number of piano tuners in a city given the population.\n\n[Fermi_problem](http://en.wikipedia.org/wiki/Fermi_problem).\n\n# example\n\n``` js\nvar fermi = require(\'fermi\');\nvar n = fermi(5000000);\nconsole.log(n);\n```\n\n# methods\n\n``` js\nvar fermi = require(\'fermi\');\n```\n\n## fermi(population, assumptions)\n\nReturn the estimated number of piano tuners in a city given the city `population`.\n\n`assumptions` Optional assumptions for the estimate.\n* `people_per_house` average number of persons in each household. Default is 2.\n* `houses_with_piano_percent` number of households that have a piano that is tuned regularly as a percentage. Default is 5.0.\n* `tuning_per_piano_per_year`: average number of times per year a (regularly tuned) piano is tuned. Default is 1.\n* `tuning_time_hours` number of hours it takes a piano tuner to tune a piano, including travel time. Default is 2.\n* `tuner_work_hours_per_day` number of hours per day a tuner works. Default is 8.\n* `tuner_work_days_per_week` number of days a week a tuner works. Default is 5.\n* `tuner_work_weeks_oer_year` number of weeks a year a tuner works. Default is 50.\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install fermi\n```\n\n# license\n\nMIT',
+38 silly publish   readmeFilename: 'readme.md',
+38 silly publish   bugs: { url: 'https://github.com/bojand/fermi/issues' },
+38 silly publish   _id: 'fermi@1.0.0',
+38 silly publish   _shasum: '0012b68659ff5ecca78fec6d48d319a43ab63929',
+38 silly publish   _from: '.' }
+39 verbose url raw fermi
+40 verbose url resolving [ 'https://registry.npmjs.org/', './fermi' ]
+41 verbose url resolved https://registry.npmjs.org/fermi
+42 info trying registry request attempt 1 at 22:19:33
+43 http PUT https://registry.npmjs.org/fermi
+44 http 403 https://registry.npmjs.org/fermi
+45 verbose headers { date: 'Fri, 23 May 2014 01:19:34 GMT',
+45 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+45 verbose headers   'content-type': 'application/json',
+45 verbose headers   'cache-control': 'max-age=1',
+45 verbose headers   'content-length': '84',
+45 verbose headers   'accept-ranges': 'bytes',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   'x-served-by': 'cache-d46-DAL',
+45 verbose headers   'x-cache': 'MISS',
+45 verbose headers   'x-cache-hits': '0',
+45 verbose headers   'x-timer': 'S1400807974.368554831,VS0,VE208',
+45 verbose headers   'keep-alive': 'timeout=10, max=50',
+45 verbose headers   connection: 'Keep-Alive' }
+46 error publish Failed PUT 403
+47 error Error: forbidden Cannot replace previously published version: 1.0.0: fermi
+47 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+47 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+47 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+47 error     at Request.EventEmitter.emit (events.js:98:17)
+47 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+47 error     at Request.EventEmitter.emit (events.js:117:20)
+47 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+47 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+47 error     at _stream_readable.js:919:16
+47 error     at process._tickCallback (node.js:419:13)
+48 error If you need help, you may report this *entire* log,
+48 error including the npm and node versions, at:
+48 error     <http://github.com/npm/npm/issues>
+49 error System Darwin 13.2.0
+50 error command "node" "/usr/local/bin/npm" "publish"
+51 error cwd /Users/bojan/dev/nodejs/fermi
+52 error node -v v0.10.28
+53 error npm -v 1.4.9
+54 verbose exit [ 1, true ]
